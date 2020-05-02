@@ -8,14 +8,14 @@
 namespace pxt-test_pins {
 
     //% weight=20
-    //% blockid=digital_writepin
+    //% blockId=digital_writepin
     //% block="digital write pin |%tname| to |%tvalue"
-    //%tname.fieldEditor="gridpicker"
-    //%tname.fieldOptions.columns=3
-    //%tvalue.defl=0
-    //%tvalue.min=0
-    //%tvalue.max=1
-    export function digital_writepin(tname: DigitalPin, tvalue: number ): void {
+    //% tname.fieldEditor="gridpicker"
+    //% tname.fieldOptions.columns=3
+    //% tvalue.defl=0
+    //% tvalue.min=0
+    //% tvalue.max=1
+    export function digital_writepin(tname: DigitalPin, tvalue: number): void {
          pins.digitalWritePin(tname, tvalue)
     }
 }
