@@ -4,8 +4,8 @@
  * The most important macro "block" specifies that a
  * block should be generated for a **exported** function.
  */
-//% block="test_pins" color="#AA278D"
-namespace test_pins {
+//% block="pxt-test_pins" color="#AA278D"
+namespace pxt-test_pins {
 
     //% weight=20
     //% blockId=digital_writepin
