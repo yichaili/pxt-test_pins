@@ -4,7 +4,7 @@
  * The most important macro "block" specifies that a
  * block should be generated for a **exported** function.
  */
-//% color="#AA278D"
+//% block="test_pins" color="#AA278D"
 namespace test_pins {
 
     //% weight=20
