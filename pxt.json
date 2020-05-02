@@ -9,5 +9,7 @@
     "files": [
         "main.ts",
         "README.md"
-    ]
+    ],
+    
+    "public": ture
 }
