@@ -5,7 +5,7 @@
  * block should be generated for a **exported** function.
  */
 //% color="#AA278D"
-namespace pxt-test_pins {
+namespace test_pins {
 
     //% weight=20
     //% blockId=digital_writepin
